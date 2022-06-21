@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>BRECHÓ BARATO</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .linhaInicial {
+            width: 100%;
+            height: 30px;
+            background-color: #8B0000;
+        } 
+
+        .primeiraOpcao {
+            font-family: 'Courier New', Courier, monospace;
+            color: aliceblue;
+            position: absolute;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+
+        .segundaOpcao {
+            font-family: 'Courier New', Courier, monospace;
+            color: aliceblue;
+            position: absolute;
+            margin-left: 1000px;
+            margin-top: 5px;
+        }
+
+        .terceiraOpcao {
+            font-family: 'Courier New', Courier, monospace;
+            color: aliceblue;
+            position: absolute;
+            margin-left: 1175px;
+            margin-top: 5px;
+        }
+
+        .campoAbaixo {
+            width: 100%;
+            height: 70px;
+            background-color: #c90a0a;
+        }
+
+        .logo {
+            font-family: 'Courier New', Courier, monospace;
+            color: aliceblue;
+            position: absolute;
+            margin-left: 30px;
+            margin-top: 17px;
+        }
+
+        .busca {
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        }
+
+        #menu-h {
+            list-style-type: none;
+            width: 100%;
+            height: 30px;
+            background-color: #C0C0C0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        #menu-h li {
+            display: inline;
+        }
+
+        #menu-h li a {
+            display: inline;
+            color: black;
+            text-decoration: none;
+            padding: 20px;
+        }
+
+        #form {
+            position:relative;
+            top: 10%;
+            left: 2%;
+            transform: translate(1%, 15%);
+            border-radius: 10px;
+            padding: 30px;
+            width: min-content;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .titulo {
+            font-size: 1.8em;
+            margin-bottom: 10%;
+        }
+
+        .input {
+            min-width: 280px;
+            border-radius: 22px;
+            border: 2px #8B0000 solid;
+            padding: 5px;
+            margin: 0px 0px 12px -5px;
+        }
+
+        .input input {
+            width: 80%;
+            border: none;
+            outline: none;
+        }
+
+        .botao {
+            margin-top: 10%;
+            width: 100%;
+            text-align: center;
+        }
+
+        .botao button {
+            background: #048630;
+            width: 40%;
+            height: 40%;
+            border: none;
+            font-size: 1em;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        #form p {
+            margin-top: 5%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="linhaInicial">
+        <div class="primeiraOpcao">
+            <p>HOME</p>
+        </div><!--opção home-->
+        <div class="segundaOpcao">
+            <p>SUAS COMPRAS</p>
+        </div><!--opção suas compras-->
+        <div class="terceiraOpcao">
+            <p>CONTATO</p>
+        </div><!--opção contato-->
+    </div><!--linha de começo das opções-->
+
+    <div class="campoAbaixo">
+        <div class="logo"><h1>Brechó Barato</h1></div> <!--logo-->
+        <div class="busca">
+            <form>
+                <input type="text" name="busca" id="busca_id" placeholder="Busca avançada" size="60">
+            </form>
+        </div><!--busca avançada-->
+    </div><!--campo que fica o logo e busca avançada-->
+
+    <ul id="menu-h">
+        <li><a href="#"><strong>Vestidos</strong></a></li>
+        <li><a href="#"><strong>Lingeries</strong></a></li>
+        <li><a href="#"><strong>Casacos</strong></a></li>
+        <li><a href="#"><strong>Blusas</strong></a></li>
+        <li><a href="#"><strong>Calças</strong></a></li>
+        <li><a href="#"><strong>Saias</strong></a></li>
+        <li><a href="#"><strong>Macacões</strong></a></li>
+        <li><a href="#"><strong>Conjuntos</strong></a></li>
+        <li><a href="#"><strong>Bermudas</strong></a></li>
+        <li><a href="#"><strong>Shorts</strong></a></li>
+        <li><a href="#"><strong>Infantil</strong></a></li>
+    </ul> <!--menu-->
+
+    <div id="form">
+        <form action="formulario">
+            <h2 class="titulo">Área do Cliente</h2>
+
+            <label for="email">E-mail:</label>
+            <div class="input">
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+            </div><!--input email-->
+
+            <label for="senha">Senha:</label>
+            <div class="input">
+                <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+            </div><!--input senha-->
+            
+            <div class="botao">
+                <button type="submit" id="acessar_id">Acessar</button>
+            </div><!--botão para acessar-->
+            <p>Esqueceu a senha?</p>
+            <p>Cadastre-se</p>
+        </form>
+    </div><!--formulário-->
+
+
+</body>
+</html>
