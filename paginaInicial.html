@@ -1,3 +1,4 @@
+<!-- HTML e CSS codificado por Kaliny-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -59,23 +60,55 @@
             text-align: center;
         }
 
-        #menu-h {
+        ul {
             list-style-type: none;
-            width: 100%;
-            height: 30px;
-            background-color: #C0C0C0;
-            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #DCDCDC;
         }
 
-        #menu-h li {
-            display: inline;
+        li {
+            float: left;
         }
 
-        #menu-h li a {
-            display: inline;
+        li a, .dropbtn {
+            display: inline-block;
             color: black;
+            text-align: center;
+            padding: 14px 16px;
             text-decoration: none;
-            padding: 20px;
+        }
+
+        li a:hover, .dropdown:hover .dropbtn {
+            background-color: red;
+        }
+
+        li.dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {background-color: #f1f1f1;}
+
+        .dropdown:hover .dropdown-content {
+            display: block;
         }
 
         #form {
@@ -152,19 +185,119 @@
         </div><!--busca avançada-->
     </div><!--campo que fica o logo e busca avançada-->
 
-    <ul id="menu-h">
-        <li><a href="#"><strong>Vestidos</strong></a></li>
-        <li><a href="#"><strong>Lingeries</strong></a></li>
-        <li><a href="#"><strong>Casacos</strong></a></li>
-        <li><a href="#"><strong>Blusas</strong></a></li>
-        <li><a href="#"><strong>Calças</strong></a></li>
-        <li><a href="#"><strong>Saias</strong></a></li>
-        <li><a href="#"><strong>Macacões</strong></a></li>
-        <li><a href="#"><strong>Conjuntos</strong></a></li>
-        <li><a href="#"><strong>Bermudas</strong></a></li>
-        <li><a href="#"><strong>Shorts</strong></a></li>
-        <li><a href="#"><strong>Infantil</strong></a></li>
-    </ul> <!--menu-->
+    <ul><!--MENU-->
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Vestidos</a>
+            <div class="dropdown-content">
+                <a href="#">Chemise</a>
+                <a href="#">Tubinho</a>
+                <a href="#">Vestido</a>
+                <a href="#">Vestido TCQ</a>
+                <a href="#">X-travagante</a>
+            </div>
+        </li>
+        
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Lingeries</a>
+            <div class="dropdown-content">
+                <a href="#">Lingerie</a>
+                <a href="#">Conjuntos</a>
+            </div>
+        </li>
+        
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Casacos</a>
+            <div class="dropdown-content">
+                <a href="#">Blazer</a>
+                <a href="#">Capa</a>
+                <a href="#">Casaco</a>
+                <a href="#">Casaquinho</a>
+                <a href="#">Colete</a>
+                <a href="#">Jaqueta</a>
+                <a href="#">Pullover</a>
+                <a href="#">Spencer</a>
+                <a href="#">X-travagante</a>
+            </div>
+        </li>
+        
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Blusas</a>
+            <div class="dropdown-content">
+                <a href="#">Blusa</a>
+                <a href="#">Blusão</a>
+                <a href="#">Blusinha</a>
+                <a href="#">Camisa</a>
+                <a href="#">Camisão</a>
+                <a href="#">Camiseta</a>
+                <a href="#">Frente-Única</a>
+                <a href="#">Parka</a>
+                <a href="#">Tomara-que-caia</a>
+                <a href="#">X-travagante</a>
+            </div>
+        </li>
+
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Calças</a>
+            <div class="dropdown-content">
+                <a href="#">Calças</a>
+                <a href="#">Jeans</a>
+                <a href="#">X-travagante</a>
+            </div>
+          </li>
+          
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Saias</a>
+            <div class="dropdown-content">
+                <a href="#">Mini-saia</a>
+                <a href="#">Saia</a>
+                <a href="#">X-travagante</a>
+            </div>
+        </li>
+          
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Macacões</a>
+            <div class="dropdown-content">
+                <a href="#">Macacão</a>
+                <a href="#">Macaquinho</a>
+            </div>
+        </li>
+          
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Conjuntos</a>
+            <div class="dropdown-content">
+                <a href="#">Conjunto</a>
+                <a href="#">Tailleur</a>
+                <a href="#">Terninho</a>
+            </div>
+        </li>
+
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Bermudas</a>
+            <div class="dropdown-content">
+                <a href="#">Bermuda</a>
+            </div>
+        </li>
+          
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Shorts</a>
+            <div class="dropdown-content">
+                <a href="#">Short</a>
+            </div>
+        </li>
+          
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Infantil</a>
+            <div class="dropdown-content">
+                <a href="#">Bermuda</a>
+                <a href="#">Calça</a>
+                <a href="#">Camisa</a>
+                <a href="#">Camiseta</a>
+                <a href="#">Macaquinho</a>
+                <a href="#">Short</a>
+                <a href="#">Vestido</a>
+            </div>
+        </li>
+    </ul><!--MENU-->
 
     <div id="form">
         <form action="formulario">
