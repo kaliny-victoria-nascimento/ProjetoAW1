@@ -1,11 +1,11 @@
-<!-- HTML codificado por Kaliny e Akemi-->
+<!-- HTML codificado por Kaliny-->
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/paginaInicial.css">
+    <link rel="stylesheet" type="text/css" href="css/contato.css">
     <title>BRECHÓ BARATO</title>
 </head>
 <body>
@@ -142,30 +142,50 @@
                 <a href="#">Vestido</a>
             </div>
         </li>
-    </ul><!--MENU-->
-
-    <div id="form">
-        <form action="formulario">
-            <h2 class="titulo">Área do Cliente</h2>
-
-            <label for="email">E-mail:</label>
-            <div class="input">
-                <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
-            </div><!--input email-->
-
-            <label for="senha">Senha:</label>
-            <div class="input">
-                <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
-            </div><!--input senha-->
-            
-            <div class="botao">
-                <button type="submit" id="acessar_id">Acessar</button>
-            </div><!--botão para acessar-->
-            <p>Esqueceu a senha?</p>
-            <p>Cadastre-se</p>
-        </form>
-    </div><!--formulário-->
-
-    
+    </ul><!--MENU--> 
+    <div class="container">
+        <div class="content">
+            <div class="left-side">
+                <div class="address details">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="topic">Endereço</div>
+                    <div class="text-one">Rua Pedro Vicente, 625</div>
+                    <div class="text-two">Canindé, São Paulo</div>
+                </div>
+                <div class="phone details">
+                    <i class="fas fa-phone-alt"></i>
+                    <div class="topic">Telefone</div>
+                    <div class="text-one">+55 11 1234 5678</div>
+                    <div class="text-two">+55 11 8765 4321</div>
+                </div>
+                <div class="email details">
+                    <i class="fas fa-envelope"></i>
+                    <div class="topic">Email</div>
+                    <div class="text-one">warline.site@gmail.com</div>
+                    <div class="text-two">site.warline@gmail.com</div>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="topic-text">Envie sua mensagem</div>
+                <p>
+                Se você tiver reclamações ou qualquer tipo de dúvida relacionada ao site, você pode nos enviar mensagem por aqui. É um prazer ajudá-lo(a).
+                </p>
+                <form action="#">
+                    <div class="input-box">
+                        <input type="text" placeholder="Digite seu nome" />
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Digite seu email" />
+                    </div>
+                    <div class="input-box message-box">
+                        <textarea placeholder="Digite sua mensagem"></textarea>
+                    </div>
+                    <div class="button">
+                        <input type="button" value="Enviar" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
