@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
-/*HTML codificado por Kaliny*/
+/*CSS codificado por Kaliny*/
 * {
     margin: 0;
     padding: 0;
@@ -262,7 +262,7 @@ li.dropdown {
     font-family:'Sarala', sans-serif;
 }
 
-.button input[type="button"]:hover{
+.button input[type="submit"]:hover{
     background: #9e6060;
     background-color: #FFFBF3(236, 214, 196, 0.53);
     transform:scale(1.1);
