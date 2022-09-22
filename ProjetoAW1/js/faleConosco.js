@@ -1,3 +1,5 @@
+//codificado por Kaliny
+
 var form = document.getElementById("formFaleConosco");
 
 if (form.addEventListener) {                   
