@@ -174,12 +174,12 @@
                 <p>
                 Se você tiver reclamações ou qualquer tipo de dúvida relacionada ao site, você pode nos enviar mensagem por aqui. É um prazer ajudá-lo(a).
                 </p>
-                <form action="mensagemform.html">
+                <form action="mensagemform.html" id="formFaleConosco">
                     <div class="input-box">
-                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome"/>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required/>
                     </div>
                     <div class="input-box">
-                        <input type="text" name="telefone" id="telefone" placeholder="Digite seu email"/>
+                        <input type="text" name="email" id="email" placeholder="Digite seu email" required/>
                     </div>
                     <div class="input-box message-box">
                         <textarea placeholder="Digite sua mensagem"></textarea>
@@ -203,5 +203,7 @@
                 <a class="rodape-menu-item" href="termosUso.html"> Termos de Uso</a>            
         </nav>
     </footer>
+
+    <script type="text/javascript" src="./js/faleConosco.js"></script>
 </body>
 </html>
