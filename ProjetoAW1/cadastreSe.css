@@ -194,8 +194,13 @@ li.dropdown {
     text-align: center;
 } 
 
-.abc {
-    padding-right: 1000px;
-    width: 10px;
-    height: 10px;
+.text-two {
+    margin-right: 300px;
 }
+
+.text-thre {
+    margin-left: 500px;
+    margin-top: -200px;
+    font-size: 15px;
+}
+

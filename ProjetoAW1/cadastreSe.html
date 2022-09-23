@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/css/cadastreSe.css">
+    <link rel="stylesheet" type="text/css" href="cadastreSe.css">
     <link rel="icon" type="image/png" sizes="260x260" href="favicon.ico">
     <title>Cadastre-se - Brechó Barato</title>
 </head>
@@ -151,25 +151,73 @@
             <div class="left-side">
                 <div class="address details">
                     <i class="fas fa-map-marker-alt"></i>
-                    <div class="text-one">Cadastre-se!</div>
+                    <div class="text-one">Cadastre-se</div>
                     <div class="text-two">
                         <br>
-                        Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
-                        Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
-                        Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
-                        Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
-                        Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
-                        Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
-                        Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
-                        Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
-                        Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
-                        Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
-                        Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
-                        Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
-                        Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
-                        Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
-                        Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
-                        Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
+                        <h3>Dados Pessoais</h3>
+                        <form>
+                            <p>Tipo de Pessoa: 
+                                <input type="radio" name="pfisica" id="pfisica">
+                                <label for="pfisica">Física</label>
+                                <input type="radio" name="pjuridica" id="pjuridica">
+                                <label for="pjuridica">Jurídica</label>
+                            </p>
+                            <label for="cpf">CPF</label>
+                            <input type="text" name="cpf" id="cpf">
+                            <p>Sexo: 
+                                <input type="radio" name="masculino" id="masculino">
+                                <label for="masculino">Masculino:</label>
+                                <input type="radio" name="feminino" id="feminino">
+                                <label for="feminino">Feminino</label>
+                            </p>
+                            <p>
+                                <label for="nome">Nome Completo:</label>
+                                <input type="text" name="nome" id="nome">
+                            </p>
+                            <p>
+                                <label for="celular">Celular:</label>
+                                <input type="text" name="celular" id="celular">
+                            </p>
+                            <p>
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" id="email">
+                            </p>
+
+                            <div class="text-thre">
+                                <br>
+                                <h3>Endereço</h3>
+                                    <p>Tipo de Endereço: 
+                                        <input type="radio" name="residencial" id="residencial">
+                                        <label for="residencial">Residencial</label>
+                                        <input type="radio" name="comercial" id="comercial">
+                                        <label for="comercial">Comercial</label>
+                                    </p>
+                                    <label for="cep">CEP</label>
+                                    <input type="text" name="cep" id="cep">
+                                    
+                                    <label for="rua">Rua:</label>
+                                    <input type="rua" name="rua" id="rua">
+                                    
+                                    <label for="numerocasa">Número:</label>
+                                    <input type="number" name="numerocasa" id="numerocasa">
+                                    
+                                    <input type="checkbox" name="semnumero" id="semnumero">
+                                    <label for="semnumero">Sem Número</label>
+                                        
+                                    <label for="complemento">Complemento:</label>
+                                    <input type="text" name="complemento" id="complemento">
+                                        
+                                    <label for="bairro">Bairro:</label>
+                                    <input type="text" name="bairro" id="bairro">
+                                        
+                                    <label for="cidade">Cidade:</label>
+                                    <input type="text" name="cidade" id="cidade">
+                                        
+                                    <label for="estado">Estado:</label>
+                                    <input type="text" name="estado" id="estado">
+                            </div>
+                            <button type="submit" id="btn-fin-cadastro">Finalizar Cadastro</button>
+                        </form>
                     </div>
                 </div>
             </div>
