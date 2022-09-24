@@ -1,4 +1,4 @@
-# Projeto de Aplicações Web 1
+# Projeto Bimestral de Aplicações Web 1
 
 Site utilizado: https://www.brechobarato.com.br/
 
