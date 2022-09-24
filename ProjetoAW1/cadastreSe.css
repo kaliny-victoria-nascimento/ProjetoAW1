@@ -204,3 +204,25 @@ li.dropdown {
     font-size: 15px;
 }
 
+button {
+    margin-top: 10%;
+    width: 30%;
+    text-align: center;
+    background: #008000;
+    font-size: 1em;
+    color: #fff;
+    border: none;
+    padding: 4px 12px;
+    border-radius: 6px;
+    background: #008000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family:'Sarala', sans-serif;
+}
+
+button:hover{
+    background: #CDE0CD;
+    background-color: #FFFBF3(236, 214, 196, 0.53);
+    transform:scale(1.1);
+    transition: transform 100ms linear;
+}
