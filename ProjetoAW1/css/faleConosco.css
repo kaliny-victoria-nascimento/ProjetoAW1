@@ -340,8 +340,9 @@ li.dropdown {
     text-align: center;
 } 
 
-.abc {
-    padding-right: 1000px;
-    width: 10px;
-    height: 10px;
+.abc{
+    position: absolute;
+    width: 200px;
+    transform: translate(250%, -15%);
+
 }
