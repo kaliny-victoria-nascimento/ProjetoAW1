@@ -136,17 +136,6 @@ li.dropdown {
     position: relative;
 }
 
-.content .left-side::before{
-    content: '';
-    position: absolute;
-    height: 95%;
-    width: 2px;
-    right: -30px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: #8B0000;
-}
-
 .content .left-side .details .text-two{
     font-size: 15px;
     color: black;
