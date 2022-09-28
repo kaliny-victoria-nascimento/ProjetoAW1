@@ -226,3 +226,9 @@ button:hover{
     transform:scale(1.1);
     transition: transform 100ms linear;
 }
+
+.abc{
+    position: absolute;
+    width: 200px;
+    transform: translate(250%, -15%);
+}
