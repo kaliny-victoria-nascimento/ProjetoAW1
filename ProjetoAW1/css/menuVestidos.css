@@ -343,3 +343,21 @@ p{
     text-align: center;
     font-family:'Sarala', sans-serif;
   } 
+
+  ol {
+    background-color: #ffff;
+    list-style: none;
+    padding-left: 100px;
+  }
+
+  li a, .dropbtn vestidos {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn vestidos{
+    background-color: #ffff;
+  }
