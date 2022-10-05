@@ -222,3 +222,18 @@ li.dropdown {
     width: 200px;
     transform: translate(250%, -15%);
 }
+
+/*parte do js dos destaques*/
+
+#produtos,
+#carrinho {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+}
+
+.produto-single {
+    width: 33.3%;
+    padding: 0 20px;
+}
