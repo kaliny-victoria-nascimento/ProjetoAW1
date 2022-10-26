@@ -14,6 +14,34 @@
     color: aliceblue;
 } 
 
+.botao-finalizar {
+  width: 100%;
+  text-align: center;
+}
+
+.botao-finalizar button {
+  background: #16b330;
+  width: 20%;
+  border: none;
+  font-size: 1em;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.botao-remover {
+  width: 100%;
+  text-align: center;
+}
+
+.botao-remover button {
+  background: #8B0000;
+  width: 20%;
+  border: none;
+  font-size: 1em;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
 .primeiraOpcao {
     font-family: 'Courier New', Courier, monospace;
     color: aliceblue;
