@@ -144,6 +144,8 @@ li.dropdown {
 .content .left-side .details .text-one{
     font-size: 30px;
     color: #8B0000;
+    line-height:42px;
+    border-bottom: 2px solid #8B0000;
  }
 
 .rodape {
@@ -361,3 +363,5 @@ p{
   li a:hover, .dropdown:hover .dropbtn vestidos{
     background-color: #ffff;
   }
+
+  
