@@ -130,6 +130,7 @@ li.dropdown {
     font-size: 1.8em;
     margin-bottom: 10%;
     color: #8B0000;
+
 }
 
 .input {
@@ -236,4 +237,24 @@ li.dropdown {
 .produto-single {
     width: 33.3%;
     padding: 0 20px;
+}
+
+.left-side::before{
+    content: '';
+    position: absolute;
+    height: 60%;
+    width: 2px;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #8B0000;
+}
+
+.text-one{
+    font-size: 30px;
+    color: #8B0000;
+    line-height:42px;
+    border-bottom: 2px solid #8B0000;
+    margin-left: 400px;
+    margin-top: 2%;
 }
