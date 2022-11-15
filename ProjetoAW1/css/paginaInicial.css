@@ -258,3 +258,45 @@ li.dropdown {
     margin-left: 400px;
     margin-top: 2%;
 }
+
+.blusa-destaque {
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.blusa-destaque:hover,
+.blusa-destaque:focus {
+    transform: translateX(10px) scale(1.2);
+}
+
+.blusa-masc-destaque .preco-desc {
+    color: #8B0000;
+    font-size: 18px;
+    margin-left: 80px;
+    text-decoration: none;
+}
+.preco-desc1 {
+    color: #8B0000;
+    font-size: 18px;
+    margin-left: 160px;
+}
+
+.vestido-destaque {
+    margin-left: 500px;
+    margin-top: -360px;
+}
+
+.vestido-destaque:hover,
+.vestido-destaque:focus {
+    transform: translateX(10px) scale(1.2);
+}
+
+.short-destaque {
+    margin-left: 1000px;
+    margin-top: -390px;
+}
+
+.short-destaque:hover,
+.short-destaque:focus {
+    transform: translateX(10px) scale(1.2);
+}
