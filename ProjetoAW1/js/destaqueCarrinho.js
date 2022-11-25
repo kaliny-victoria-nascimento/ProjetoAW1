@@ -1,5 +1,12 @@
 //Codificado por Kaliny
 
+
+    $(document).ready(function(){
+    $("button").click(function(){
+        $("img").animate({left:'700px'});
+    });
+    });
+
     const itens = [ { //objeto que vai armazenar todos os produtos
         id: 0,
         nome: 'produto1',
